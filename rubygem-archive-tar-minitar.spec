@@ -3,7 +3,7 @@
 Summary:	Provides POSIX archive management from Ruby programs
 Name:		rubygem-%{oname}
 Version:	0.5.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPLv2+ or Ruby
 Group:		Development/Ruby
 URL:		http://%{oname}.rubyforge.org/
