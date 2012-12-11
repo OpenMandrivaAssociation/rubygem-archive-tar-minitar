@@ -40,3 +40,17 @@ rm -rf %{buildroot}
 %{ruby_gemdir}/specifications/%{oname}-%{version}.gemspec
 %{_bindir}/minitar
 
+
+
+%changelog
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 0.5.2-2mdv2011.0
++ Revision: 614771
+- the mass rebuild of 2010.1 packages
+
+* Wed Feb 03 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.5.2-1mdv2010.1
++ Revision: 500488
+- import rubygem-archive-tar-minitar
+
+
+* Mon Feb  3 2010 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.5.2-1
+- initial release
