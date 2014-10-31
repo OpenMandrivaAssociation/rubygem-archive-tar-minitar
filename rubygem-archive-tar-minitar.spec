@@ -30,10 +30,10 @@ mv %{buildroot}%{ruby_gemdir}/bin %{buildroot}%{_prefix}
 %clean
 
 %files
-%doc %{gem_dir}/doc/%{oname}-%{version}
-%{gem_dir}/cache/%{oname}-%{version}.gem
-%{gem_dir}/gems/%{oname}-%{version}
-%{gem_dir}/specifications/%{oname}-%{version}.gemspec
+%doc %{ruby_gemdir}/doc/%{oname}-%{version}
+%{ruby_gemdir}/cache/%{oname}-%{version}.gem
+%{ruby_gemdir}/gems/%{oname}-%{version}
+%{ruby_gemdir}/specifications/%{oname}-%{version}.gemspec
 %{_bindir}/minitar
 
 
