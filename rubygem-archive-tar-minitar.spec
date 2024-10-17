@@ -6,7 +6,7 @@ Version:	0.5.2
 Release:	5
 License:	GPLv2+ or Ruby
 Group:		Development/Ruby
-URL:		http://%{oname}.rubyforge.org/
+URL:		https://%{oname}.rubyforge.org/
 Source0:	http://gems.rubyforge.org/gems/%{oname}-%{version}.gem
 BuildRequires:	ruby-RubyGems
 BuildArch:	noarch
